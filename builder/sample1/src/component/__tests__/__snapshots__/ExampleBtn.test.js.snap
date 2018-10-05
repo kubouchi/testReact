@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render test 1`] = `
+<button
+  type="text"
+>
+  tttttttt
+  Test
+</button>
+`;
+
+exports[`render without type props 1`] = `
+<button>
+  tttttttt
+  Test
+</button>
+`;

@@ -6,7 +6,7 @@ export default class ExampleBtn extends React.Component {
         <button
           type={this.props.type}
         >
-          {this.props.children}
+          {this.props.children}hhh
         </button>
       )
     }

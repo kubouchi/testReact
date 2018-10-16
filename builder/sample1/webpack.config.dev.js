@@ -20,7 +20,7 @@ module.exports = {
               // css での url() メソッドを無効に
               url: false,
               // 圧縮
-              minimize: true,
+              minimize: false,
               // CSS 用ソースマップを付ける
               sourceMap: true,
             },

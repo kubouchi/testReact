@@ -5,7 +5,9 @@ module.exports = [{
   cache: true,
   devtool: 'source-map',
   devServer: {
-    historyApiFallback: true,
+    host: '0.0.0.0',
+    disableHostCheck: true,
+    historyApiFallback: true
   },
   context: path.resolve(__dirname, 'src'),
   entry: './Routes.tsx',

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { render } from 'react-dom';
 import { Switch } from 'react-router';
-import { BrowserRouter, Redirect, Route } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import { ChannelList } from './components';
 import { Channel } from './containers';
 import { Container } from 'semantic-ui-react';
@@ -17,10 +17,13 @@ const routes = <BrowserRouter>
                     <Route
                         exact={true} path='/'
                         render={() => <h1>Sample Application</h1>} />
+                    <Route
+                        exact={true} path='/hogehoge'
+                        render={() => <h1>hhhhh hogehoge</h1>} />
                 </Switch>
             </Container>
         </main>
     </div>
-</BrowserRouter >;
+</BrowserRouter>;
 
 render(routes, document.getElementById('app'));

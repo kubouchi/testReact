@@ -35,8 +35,8 @@ export class MessageForm extends React.Component<MessageFormProps, MessageFormSt
         const payload = {
             body: this.state.body,
             user: {
-                id: '123',
-                name: 'iktakahiro'
+                id: '3333',
+                name: 'kazuu'
             }
         } as Message;
 

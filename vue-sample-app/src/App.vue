@@ -1,13 +1,4 @@
-<template lang="pug">
-  //- <!-- <div id="app">
-  //-   <img src="./assets/logo.png">
-  //-   <router-view/>
-  //- </div> -->
-  #app
-    img(src="./assets/logo.png")
-    .sample pugで記述
-    router-view
-</template>
+<template lang="pug" src="./app.pug" />
 
 <script>
 export default {
